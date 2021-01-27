@@ -1,0 +1,165 @@
+body{
+    background: radial-gradient(white, rgb(156, 122, 71));
+    background-size: cover;
+}
+.logo {
+    height:337.25px;
+    width: 445.75px;
+}
+nav {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: none;
+}
+.nav_links li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ecf0f1;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+   transition: all .3s ease 0s; 
+   position: relative;
+   right: 60px;
+}
+.nav_links li a:hover {
+    transition: all .3s ease 0s; 
+    color: #0088a9;
+ }
+.navname {
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all .3s ease 0s; 
+}
+ul {
+    position: relative;
+    
+
+}
+.LastName {
+    position: relative;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+
+}
+h3{
+    text-align: center;
+    Color: black;
+    font-family: 'Josefin Slab', serif;
+    font-size: 45px;
+}
+p {
+    font-size: 25px;
+    color: black;
+}
+img {
+    width: 331.5px;
+    height: 500px;
+    border:2px solid black;
+}
+
+.intro {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+hr {
+    width:450px;
+    border: 1px solid black;
+}
+#container1 {
+display: flex;
+    justify-content: space-around;
+ 
+}
+#box-1{
+    height: 870px;
+    width:400px;
+border: solid black;
+
+padding: 20px;
+}
+.img1{
+   position: relative;
+  left:29px;
+}
+.img2 {
+    position: relative;
+  left:29px;
+  bottom: 13px;
+}
+.img3{
+    position: relative;
+    left:29px;  
+    bottom: 1px;
+}
+#box-2 {
+    height: 870px;
+    width: 400px;
+    border: solid red;
+    padding: 20px;
+}
+#box-3 {
+    height: 870px;
+    width: 400px;
+    border: solid blue;
+    padding: 20px;
+}
+footer {
+    Color: black;
+    text-align:center;
+}
+#Container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#item1{
+    border:1px solid black;
+    color: red;
+}
+#item2{
+    border:1px solid black;
+    color: red;
+}
+#item3{
+    border:1px solid black;
+}
+#item4{
+    border:1px solid black;
+}
+#item5{
+    border:1px solid black;
+    color: yellow;
+}
+#item6{
+    border:1px solid black;
+    color: yellow;
+}
