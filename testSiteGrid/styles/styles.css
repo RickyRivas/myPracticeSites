@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: grid;
+    height: 100vh;
+    grid-gap: 2px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .1fr .5fr 2fr .1fr;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "sidebar para para para"
+    "sidebar c1 c2 c3"
+    "sidebar footer footer footer";
+    
+}
+button {
+    position: relative;
+    right: 10px;
+    margin: auto 0;
+    padding: 15px;
+    background-color: #17E209;
+    color:black;
+    border-radius: 20px;
+    border: none;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    grid-area: navbar;
+}
+.navli {
+    color: white !important;
+}
+.updatemain {
+    color: black;
+}
+.apple2 {
+    width: 290.67px;
+    height: 325.83px;
+    margin: 0;
+}
+.icons {
+    width: 250px;
+    height: 200px;
+}
+.name {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+span {
+    color: red;
+}
+ul, li, a {
+    font-size: 25px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 5px;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar {
+    background-color: white;
+    grid-area:sidebar;
+    border: 1px solid black;
+    text-align: center;
+}
+.updatelist {
+    display: block;
+}
+.udli {
+    margin: 27px 0;
+    font-size: 20px;
+    color: black;
+}
+.para {
+    background-color: #E8E2E2;
+    grid-area: para;
+}
+.c1 {
+    background-color: #CCCCCC;
+    grid-area: c1;
+}
+.c2 {
+    background-color: #9A9B9C;
+    grid-area: c2;
+}
+.c3 {
+    background-color: #7A7B7C;
+    grid-area: c3;
+}
+.footer {
+    background-color: black;
+    grid-area: footer;
+}
+.footertext {
+    font-size: 15px;
+    color: white;
+}
+hr {
+    width: 150px;
+    border: 1px solid black;
+}
